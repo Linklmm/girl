@@ -16,6 +16,7 @@ public class HelloController {
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     String say(){
 
+        String s="hello world !";
         //return "hello spring boot";
         return girlProperties.getCupSize();
     }
